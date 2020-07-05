@@ -419,6 +419,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e0aff7ef537544e824e73ed92757f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1132435590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1132435592}
+  - component: {fileID: 1132435591}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1132435591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132435590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f7ceb9a3e619344bcacd44ada31734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letter: {fileID: 0}
+  interactionText: {fileID: 0}
+  victory: {fileID: 0}
+  scrollFragments: 0
+  victoryAudio: {fileID: 0}
+  victoryText: {fileID: 0}
+  bgm: {fileID: 0}
+  healthCanvas: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  optionsScreen: {fileID: 0}
+  soundSettings: {fileID: 0}
+  qualitySettings: {fileID: 0}
+  soundSlider: {fileID: 0}
+  loadingScreen: {fileID: 0}
+  cannotOpen: {fileID: 0}
+  pauseOn: 0
+--- !u!4 &1132435592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132435590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 94.27118, y: 2.965487, z: 85.34343}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1241999638
 PrefabInstance:
   m_ObjectHideFlags: 0
