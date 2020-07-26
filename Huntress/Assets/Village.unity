@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6365241, g: 0.81384224, b: 0.7778064, a: 1}
+  m_IndirectSpecularColor: {r: 0.81899434, g: 0.9132278, b: 0.89512825, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3795,7 +3795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9c422bc41288a4da51b715896e05ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 1688151049452928, guid: e7a5fd8c6cb305f4b849075d86c70451, type: 3}
+  enemy: {fileID: 1688151049452928, guid: e7a5fd8c6cb305f4b849075d86c70451, type: 2}
   spawnTime: 20
   spawnPoints:
   - {fileID: 1122974073}
@@ -7951,11 +7951,6 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
-    - target: {fileID: 95991355770955084, guid: 3820d87ac596d1e469978b505bcdcc6e,
-        type: 3}
-      propertyPath: m_Avatar
-      value: 
-      objectReference: {fileID: 9000000, guid: bf2268ee1812c434aba73449bdb0fb37, type: 3}
     - target: {fileID: 114440660650810492, guid: 3820d87ac596d1e469978b505bcdcc6e,
         type: 3}
       propertyPath: m_TurnSpeed

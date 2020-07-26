@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - FlythroughCam
+  - Enemy
+  - GameManager
   layers:
   - Default
   - TransparentFX
@@ -14,31 +15,37 @@ TagManager:
   - UI
   - 
   - 
-  - Skybox
-  - Player
   - PostProcessing
-  - SetDressing
+  - Sword
+  - Player
   - 
   - 
-  - Vehicles
-  - Navmesh
-  - Environment
-  - Characters
-  - Vegetation
-  - Effects
-  - Ragdoll
-  - WaterGeometry
-  - Terrain
-  - Enemy
-  - Cameras
-  - Props
-  - Avoid
-  - CameraCollider
-  - Collider
-  - Checkpoint
-  - DoNotDraw
-  - Level
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: player
+    uniqueID: 2039093749
+    locked: 0
+  - name: panel
+    uniqueID: 800516011
     locked: 0
