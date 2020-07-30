@@ -68,6 +68,7 @@
      <Compile Include="Assets\OpenChest.cs" />
      <Compile Include="Assets\PlayerHealth.cs" />
      <Compile Include="Assets\ReadBook.cs" />
+     <Compile Include="Assets\cameraScript.cs" />
      <Compile Include="Assets\finalChest.cs" />
      <None Include="Assets\laxer Assets\creek\Shaders\RunningWaterSimple.shader" />
      <None Include="Assets\laxer Assets\creek\Shaders\HeightBlendx5.shader" />
